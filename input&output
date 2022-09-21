@@ -1,0 +1,10 @@
+#hello world
+print("hello world")
+
+#hello world with tab
+print("hrllo world\t hello world")
+
+#hello world with new line
+print("hello world\nhello world")
+
+he
