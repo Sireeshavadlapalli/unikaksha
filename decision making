@@ -1,0 +1,99 @@
+#GREATEST OF TWO NUMBERS
+CODE:
+a=int(input())
+b=int(input())
+if(a==b):
+  print(a,"is equal to",b)
+elif(a>b):
+  print(a,"is greater than",b)
+else:
+  print(a,"is less than",b)
+
+
+VOWEL OR CONSONANT
+CODE:
+a=(input())
+if a in"aeiouAEIOU":
+ print("vowel")
+elif a in"bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ":
+  print("consonant")
+else:
+ print("not an alphabet")
+ 
+ 
+ #GRADING SYSTEM
+ CODE:
+ marks=int(input())
+if marks==100:
+ print("Grade S")#python
+elif marks<100 and marks>=90:
+ print("Grade A")
+elif marks<90 and marks>=80:
+ print("Grade B")
+elif marks<80 and marks>=70:
+ print("Grade c")
+elif marks<70 and marks<=60:
+ print("Grade d")
+elif marks<60 and marks>=50:
+ print("Grade E")
+else:
+ print("fail")
+if marks>100:
+ print("Invalid input")
+ 
+ 
+# PROFIT OR LOSS
+CODE:
+cp=float(input())
+sellingpriceofonemango=int(input())
+sp=sellingpriceofonemango*12
+profit=sp-cp
+loss=cp-sp
+print("Enter the price of a dozen mangoes")
+print("Enter the price at which 1 mango is being sold")#python
+if(cp==sp):
+ print("no profit nor loss")
+elif(cp>sp):
+ print("loss:Rs.%.2f"%loss)
+else:
+ print("profit:Rs.%.2f"%profit)
+ 
+ 
+ #FEE COLLECTION
+CODE:
+print("Enter the student type")
+s=input()
+if s=='MSDS':
+    print("Enter tuition fee")
+    tf=float(input())
+    print("Enter bus fee")
+    bf=float(input())
+    totalfee=tf+bf
+    print("the fees to be paid by the student is Rs.%.2f"% totalfee)
+elif s=='MSH':
+    print("Enter tuition fee")
+    tf=float(input())
+    print("Enter hostel fee")
+    hf=float(input())
+    totalfee=tf+hf
+    print("the fees to be paid by the student is Rs.%.2f"% totalfee)
+elif s=='MGSDS':
+    print("Enter tuition fee")
+    tf=float(input())
+    print("Enter bus fee")
+    bf=float(input())
+    totalfee=150/100*tf+bf
+    print("the fees to be paid by the student is Rs.%.2f"% totalfee)
+elif s=='MGSH':
+    print("Enter tuition fee")
+    tf=float(input())
+    print("Enter hostel fee")
+    hf=float(input())
+    totalfee=150/100*tf+hf
+    print("the fees to be paid by the student is Rs.%.2f"% totalfee)
+    
+    
+    
+    Y2K PROBLEM DETECTOR
+    CODE:
+   
