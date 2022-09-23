@@ -96,4 +96,144 @@ elif s=='MGSH':
     
     Y2K PROBLEM DETECTOR
     CODE:
-   
+   print("Enter Year of Birth")
+a=int(input())
+print("Enter Current year")
+b=int(input())
+if a>b:
+    p=100-a
+    q=p+b
+    print("your age is %d" %q)
+else:
+    print("Your age is %d" %(b-a))
+    
+ 
+ #LAB ALLOCATION
+ CODE:
+ x=int(input("Enter x\n"))
+y=int(input("Enter y\n"))
+z=int(input("Enter z\n"))
+if x<y and x<z:
+    print("L1 has the minimal seating capacity")
+elif y<x and y<z:
+    print("L2 has the minimal seating capacity")
+else:
+     print("L3 has the minimal seating capacity")
+
+
+
+#GARDENING I
+CODE:
+r=int(input())
+c=int(input())
+t=int(input())
+if t%c==0:
+    print("yes")
+elif t%c==1:
+    print("yes")
+else:
+    print("no")
+    
+
+#HOTEL TARRIFF CALCULATOR
+CODE:
+month=int(input())
+rpd=float(input())
+dsh=int(input())
+if month<=3 or month>=7 and month<=10 :
+    print("hotel tariff Rs.%.2f" %(rpd*dsh))
+elif month>3 and month<7 or month>=11 and month<=12:
+      print("hotel tariff Rs.%.2f" %((rpd*dsh)+dsh*(20/100*rpd)))
+else:
+    print("invalid input")
+
+
+#RGV LIGHTS
+CODE:
+s=float(input())
+t=float(input())
+d=float(input())
+if s>=60:
+    print("Yes")
+else:
+    print("No")
+
+
+#BUDGET
+CODE:
+a=float(input())
+f=a*350.34 
+b=float(input())
+g=b*230.90
+c=float(input())
+h=c*190.55
+d=float(input())
+i=d*125.30
+e=float(input())
+j=e*180.90
+sum=(f+g+h+i+j)
+if sum<15000:
+    print("Yes")
+else:
+    print("No")
+    
+  
+  
+  #SECE DINING
+  CODE:a=input()
+b=int(input())
+if a=="front":
+    if b==1:
+        print("Left Handed")
+    elif b==2:
+        print("Right Handed")
+    else:
+        print("invalid input")
+elif a=="rear":
+    if b==1:
+        print("Right Handed")
+    elif b==2:
+        print("Left Handed")
+    else:
+        print("invalid input")
+else:
+    print("invalid input")
+
+  
+  
+ #INTERSECTION OF A CIRCLES
+ CODE:
+ x1=int(input())
+y1=int(input())
+r1=int(input())
+x2=int(input())
+y2=int(input())
+r2=int(input())
+x=x1-x2
+y=y1-y2
+c1c2=((x**2)+(y**2))**0.5
+if c1c2==r1+r2:
+    print("The circles are tangential")
+elif c1c2<r1+r2:
+     print("The circles overlap")
+else:
+     print("The circles do not overlap")
+    
+    
+ #MICROWAVE OVEN
+ CODE:
+ a=int(input("Enter the number of items\n"))
+b=float(input("Enter the single item heating time\n"))
+if a<2:
+    print("The recommended heating time is %f" %b)
+elif a==2:
+    print("The recommended heating time is %.2f" %(b+50/100*b))
+elif a==3:
+     print("The recommended heating time is %f" %(2*b))
+elif a>3:
+        print("Number of items is more")
+    
+    
+  
+    
+  
